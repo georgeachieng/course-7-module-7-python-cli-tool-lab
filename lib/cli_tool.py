@@ -24,9 +24,9 @@ def complete_task(args):
         if task:
             task.complete()
         else:
-            print(" Task not found.")
+            print("❌ Task not found.")
     else:
-        print(" User not found.")
+        print("❌ User not found.")
 
 # CLI entry point
 def main():

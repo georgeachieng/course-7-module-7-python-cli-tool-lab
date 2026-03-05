@@ -6,7 +6,7 @@ class Task:
 
     def complete(self):
         self.completed = True
-        print(f" Task '{self.title}' completed.")
+        print(f"✅ Task '{self.title}' completed.")
 
 
 # User class
@@ -17,7 +17,7 @@ class User:
 
     def add_task(self, task):
         self.tasks.append(task)
-        print(f" Task '{task.title}' added to {self.name}.")
+        print(f"📌 Task '{task.title}' added to {self.name}.")
 
     def get_task_by_title(self, title):
         # Search for a task by its title in the user's task list
